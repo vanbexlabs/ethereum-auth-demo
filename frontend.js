@@ -3,12 +3,9 @@
 var web3AuthFrontEnd = require('web3-auth/frontend.js')
 var $ = require('jquery');
 var Web3 = require('web3');
-var ethUtil = require('ethereumjs-util');
-var Eth = require('ethjs');
 
 window.addEventListener('load', function() {
 
-  window.Eth = Eth;
   window.web3 = new Web3(web3.currentProvider);
 
   web3.version.getNode(function(error, result) {
