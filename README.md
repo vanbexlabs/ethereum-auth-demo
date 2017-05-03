@@ -17,7 +17,3 @@ Demo of signing into a backend website from Web3 using JSON Web Tokens.
 * The account address and the signed message are POSTed to the backend.
 * The backend verifies that the signature is correct and generates a signed Json Web Token (JWT) proving that the holder is in control of the address.
 * The JWT is sent back to the web browser as a HttpOnly (not accessible from frontend JS) session cookie.
-* When "Who am I" is clicked, the JWT cookie is checked and the address of account is returned to the browser.
-
-## Todo
-Include a CSRF token to prevent cross-site request forgery. See https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage
