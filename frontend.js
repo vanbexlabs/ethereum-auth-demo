@@ -1,6 +1,6 @@
 "use strict";
 
-var web3AuthFrontEnd = require('./web3-auth-git/frontend.js')
+var web3AuthFrontEnd = require('web3-auth/frontend.js')
 var $ = require('jquery');
 var Web3 = require('web3');
 

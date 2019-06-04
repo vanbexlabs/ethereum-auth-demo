@@ -2,7 +2,7 @@
 
 var express = require('express');
 var app = express();
-var web3Auth = require('./web3-auth-git');
+var web3Auth = require('web3-auth');
 
 app.use(express.static('public'));
 
