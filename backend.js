@@ -12,9 +12,10 @@ app.get('/who', function (req, res) {
   console.log(req.cookies.token);
   console.log(req.user);
   if (req.user) {
-    res.json({account: req.user.loggedInAs});
-  }
-  else {
+    res.json({
+      account: req.user.loggedInAs
+    });
+  } else {
     res.status(404);
   }
   res.end();
